@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+  margin: 0 -5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 33.3%;
+  padding: 0 10px;
+  margin-bottom: 25px;
+  margin-top: 15px;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+
+  display: flex;
+  justify-content: center;
+}
+@media (min-width: 576px) {
+  .container {
+    max-width: 600px;
+  }
+}
+.card-container {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+.card-header {
+  padding: 15px;
+  margin-bottom: 0;
+  background-color: #fe83b9;
+  border-bottom: 1px solid #f985b8;
+}
+.card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem;
+  background: #fe9bc7;
+}
+h6 {
+  font-size: 16px;
+  margin: 0px;
+  font-weight: bold;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #f1f1f1;
+  border-radius: 0.5rem;
+  text-align: -webkit-center;
+  height: 100px;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+.card .card-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.card.gift {
+  background: #fbbb61;
+  padding: 7px;
+  cursor: pointer;
+}
+.card-border {
+  border: 2px dashed #ffff00ab;
+}
+.img-size {
+  width: 54px;
+}
+.card__face--back {
+  transform: rotateY(180deg);
+}
