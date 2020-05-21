@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/fliping-cards/static/css/main.cf39ec6f.chunk.css",
+    "main.js": "/fliping-cards/static/js/main.8fbdc0bb.chunk.js",
+    "main.js.map": "/fliping-cards/static/js/main.8fbdc0bb.chunk.js.map",
+    "runtime-main.js": "/fliping-cards/static/js/runtime-main.ebd4a1ca.js",
+    "runtime-main.js.map": "/fliping-cards/static/js/runtime-main.ebd4a1ca.js.map",
+    "static/js/2.3c5894cb.chunk.js": "/fliping-cards/static/js/2.3c5894cb.chunk.js",
+    "static/js/2.3c5894cb.chunk.js.map": "/fliping-cards/static/js/2.3c5894cb.chunk.js.map",
+    "index.html": "/fliping-cards/index.html",
+    "precache-manifest.8c2ce735c68799b63e353b85840e7310.js": "/fliping-cards/precache-manifest.8c2ce735c68799b63e353b85840e7310.js",
+    "service-worker.js": "/fliping-cards/service-worker.js",
+    "static/css/main.cf39ec6f.chunk.css.map": "/fliping-cards/static/css/main.cf39ec6f.chunk.css.map",
+    "static/js/2.3c5894cb.chunk.js.LICENSE.txt": "/fliping-cards/static/js/2.3c5894cb.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ebd4a1ca.js",
+    "static/js/2.3c5894cb.chunk.js",
+    "static/css/main.cf39ec6f.chunk.css",
+    "static/js/main.8fbdc0bb.chunk.js"
+  ]
+}
